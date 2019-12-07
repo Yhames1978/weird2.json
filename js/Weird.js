@@ -1,7 +1,7 @@
 let header = document.querySelector("header");
 let section = document.querySelector("section");
 
-let requestURL = "https://yhames1978.github.io/Weird-weird.json/js/WeirdShop.json";
+let requestURL = "https://yhames1978.github.io/weird2.json/js/WeirdShop.json";
 let request = new XMLHttpRequest();
 
 //Step Four - open a new request, using the open method
@@ -74,6 +74,7 @@ function topProducts(jsonObj) {
     article.appendChild(p2);
     article.appendChild(p3);
     section.appendChild(article);
+    
 
   }
 
